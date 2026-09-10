@@ -99,7 +99,7 @@ export default function ProjectsCarouselCard({ colSpan = "md:col-span-2" }) {
       </div>
 
       {/* Tech Badges & Links */}
-      <div className="flex items-center justify-between pt-2 border-t border-border/40">
+      <div className="flex items-center justify-between gap-1.5 pt-2 border-t border-border/40">
         <div className="flex flex-wrap gap-1.5">
           {current.tags.map((tag) => (
             <Badge key={tag} variant="secondary" className="text-[11px]">

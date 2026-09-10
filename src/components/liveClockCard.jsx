@@ -42,7 +42,7 @@ export default function LiveClockCard() {
       </div>
 
       <div className="text-xs text-muted-foreground">
-        Based in <span className="font-semibold text-foreground">Remote / Worldwide</span>
+        Based in <span className="font-semibold text-foreground">Nigeria / Worldwide</span>
       </div>
     </BentoCard>
   );
